@@ -102,15 +102,6 @@ while True:
         if input[pygame.K_1]:
             name1 = font.render("Shreeraj Shrestha",False,(8,143,143))
             screen.blit(name1,(650,300))
-        elif input[pygame.K_2]:
-            name2 = font.render("Dhananjaya Shrestha",False,(8,143,143))
-            screen.blit(name2,(650,300))
-        elif input[pygame.K_3]:
-            name3 = font.render("Laxmi Shrestha",False,(8,143,143))
-            screen.blit(name3,(650,300))
-        elif input[pygame.K_5]:
-            name4 = font.render("Sworup Raj Shrestha",False,(8,143,143))
-            screen.blit(name4,(650,300))
 
     if game_active:
 
